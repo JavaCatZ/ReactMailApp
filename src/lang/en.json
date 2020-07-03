@@ -1,0 +1,150 @@
+{
+    "context" : {
+        "inputText" : {
+            "vessel" : {
+                "text" : "Vessel",
+                "msg_small" : "Enter vessel"
+            },
+            "lat" : {
+                "text" : "Latitude",
+                "msg_small" : "Enter latitude in format: 000°00'00\""
+            },
+            "longi" : {
+                "text" : "Longitude",
+                "msg_small" : "Enter longitude in format: 000°00'00\""
+            },
+            "course" : {
+                "text" : "Course (°)",
+                "msg_small" : "Enter current course (°)",
+                "msg_medium" : "Course value must be numeric",
+                "msg_big" : "The course value must not be less than 0"
+            },
+            "speed" : {
+                "text" : "Speed (in knots)",
+                "msg_small" : "Enter current speed (in knots)",
+                "msg_medium" : "Course value must be numeric",
+                "msg_big" : "The course value must not be less than 0"
+            },
+            "crew" : {
+                "text" : "Crew (num.)",
+                "msg_small" : "Enter number of crew members value (num.)",
+                "msg_medium" : "The value of the number of crew members must be numeric",
+                "msg_big" : "The value of the number of crew members must not be less than 0"
+            },
+            "fuel" : {
+                "text" : "Fuel remaining (t)",
+                "msg_small" : "Enter fuel remaining value (t)",
+                "msg_medium" : "The value of the remaining fuel must be numeric",
+                "msg_big" : "The value of the remaining fuel must not be less than 0"
+            },
+            "oil" : {
+                "text" : "Oil residue (t)",
+                "msg_small" : "Enter oil residue value (t)",
+                "msg_medium" : "The value of the oil residue must be numeric",
+                "msg_big" : "The value of the oil residue must not be less than 0"
+            },
+            "water" : {
+                "text" : "Rest of the water (t)",
+                "msg_small" : "Enter the rest of the water value (t)",
+                "msg_medium" : "The value of the rest of the water must be numeric",
+                "msg_big" : "The value of the rest of the water must not be less than 0"
+            },
+            "prevBunker" : {
+                "text" : "Previous bunker",
+                "msg_small" : "Enter the date of the previous bunker"
+            },
+            "bunker" : {
+                "text" : "Next bunker",
+                "msg_small" : "Enter the date of the next bunker"
+            },
+            "temp" : {
+                "text" : "Temperature (С°)",
+                "msg_small" : "Enter the current temperature (С°)",
+                "msg_medium" : "Temperature value must be numeric",
+                "msg_big" : "Temperature value must not be less than 0"
+            },
+            "wind" : {
+                "text" : "Wind speed (m/s)",
+                "msg_small" : "Enter the wind speed value (m/s)",
+                "msg_medium" : "Wind speed value must be numeric",
+                "msg_big" : "Wind speed value must not be less than 0"
+            },
+            "windDirect" : {
+                "text" : "Direction of the wind (°)",
+                "msg_small" : "Enter the direction of the wind (°)",
+                "msg_medium" : "Direction of the wind value must be numeric",
+                "msg_big" : "Direction of the wind value must not be less than 0"
+            },
+            "wave" : {
+                "text" : "Wave height (m)",
+                "msg_small" : "Enter the wave height value (m)",
+                "msg_medium" : "Wave height value must be numeric",
+                "msg_big" : "Wave height value must not be less than 0"
+            },
+            "iceset" : {
+                "text" : "Ice setting",
+                "msg_small" : "Enter the ice setting variant"
+            },
+            "project" : {
+                "text" : "Project",
+                "msg_small" : "Enter the project"
+            },
+            "status" : {
+                "text" : "Ship status",
+                "msg_small" : "Enter the ship status"
+            },
+            "comment" : {
+                "text" : "Comment",
+                "msg_small" : "Enter the comment"
+            }
+        },
+        "selectText" : {
+            "statuses" : ["Ship mooring", "Repairs", "Ship crossing", "In work", "Docking", "Experimental work", "Other"],
+            "ice_settings" : [ "0 - No ice",
+                               "1 - Single ice floes",
+                               "2 - Very rare ice",
+                               "3 - Rare ice",
+                               "4 - Sparse ice",
+                               "5 - Ice of medium cohesion",
+                               "6 - Sparse ice",
+                               "7 - Cohesive ice",
+                               "8 - Very cohesive ice",
+                               "9 - Almost solid ice",
+                               "10 - Solid ice" ]
+        },
+        "calendar" : {
+            "months" : ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            "monthsSmall" : ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "weekDays" : [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "weekDaysSmall" : ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "weekDaysAbbr" : ["S", "M", "T", "W", "T", "F", "S"],
+            "cancelBtn" : "Cancel",
+            "clearBtn" : "Clear",
+            "done" : "OK"
+        },
+        "sidebar" : {
+            "msgTitle" : "Sent Messages:",
+            "msgAccess" : "Successfully:",
+            "msgFail" : "Not successful:",
+            "sendBtn" : "Send",
+            "clearBtn" : "Clear",
+            "lang" : {
+                "title" : "Lang",
+                "RU" : "Russian",
+                "EN" : "English"
+            }
+        },
+        "mainform" : {
+            "title" : "Form",
+            "sendBtn" : "Send"
+        },
+        "infoMessages" : {
+            "type_1" : "Message sent",
+            "type_2" : "Message not sent: ",
+            "type_3" : "Unsent message was saved",
+            "type_4" : "Unsent message was not saved: ",
+            "type_5" : "All unsent messages have been deleted",
+            "type_6" : "No messages saved"
+        }
+    }
+}
