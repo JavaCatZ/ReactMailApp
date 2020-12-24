@@ -55,7 +55,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@material/react-material-icon": "^0.15.0",
     "axios": "^0.19.2",
-    "date-and-time": "^0.13.1",
+    "date-and-time": "^0.14.2",
     "jquery": "^3.4.1",
     "jquery-mask-plugin": "^1.14.16",
     "jquery.maskedinput": "^1.4.1",
